@@ -15,7 +15,7 @@ Diese Datei führt die Hauptanalyse der Datenkompression durch. Die wichtigsten 
 5. **Kompressionsraten berechnen**: Berechnet Kompressionsraten für verschiedene Genauigkeiten.
 6. **Ergebnisse visualisieren**: Stellt die Kompressionsraten gegen die Genauigkeiten grafisch dar.
 
-Die Datei erstellt und speichert Plots, die die Kompressionsraten in Abhängigkeit von der Genauigkeit zeigen.
+Das Programm erstellt und speichert Plots, die die Kompressionsraten in Abhängigkeit von der Genauigkeit zeigen.
 
 Die von `Model.py` erzeugten `.png` Dateien sind:
 
@@ -34,7 +34,7 @@ Diese Datei visualisiert die benötigte Bandbreite für die Übertragung von Ere
 4. **Animation erstellen**: Erstellt eine Animation der Bitraten über die Zeit.
 5. **Huffman-Baum visualisieren**: Visualisiert den Huffman-Baum basierend auf den gegebenen Codes.
 
-Die Datei erstellt und speichert Plots und Animationen, die die Bitraten der verschiedenen Komprimierungsmethoden über die Zeit darstellen.
+Das Programm erstellt und speichert Plots und Animationen, die die Bitraten der verschiedenen Komprimierungsmethoden über die Zeit darstellen.
 
 Die von `BoundedBitRate Animated.py` erzeugten Dateien sind:
 
