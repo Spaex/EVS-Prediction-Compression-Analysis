@@ -31,7 +31,7 @@ Diese Datei visualisiert die benötigte Bandbreite für die Übertragung von Ere
 
 1. **Daten einlesen**: Liest Ereignisdaten aus einer HDF5-Datei.
 2. **SEP (Same Event Prediction) durchführen** Hierbei wird die Differenz zum nächsten Event genommen und als ∆E gespeichert. Annahme: Das nächste Event tritt an der gleichen Stelle auf.
-3. **Huffman-Codierung**: Führt eine Huffman-Codierung auf den Same Event Prediction Daten durch.
+3. **Huffman-Codierung**: Führt eine Huffman-Codierung auf den Same Event Prediction ∆E Daten durch.
 4. **Bitraten berechnen**: Berechnet die Bitrate für verschiedene Komprimierungsmethoden.
 5. **Animation erstellen**: Erstellt eine Animation der Bitraten über die Zeit.
 6. **Huffman-Baum visualisieren**: Visualisiert den Huffman-Baum basierend auf den gegebenen Codes.
