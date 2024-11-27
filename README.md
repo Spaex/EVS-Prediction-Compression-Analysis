@@ -1,6 +1,7 @@
 # Projektbeschreibung
 
 Dieses Projekt führt eine Datenkompressionsanalyse mit Huffman-Codierung von Prädiktorabweichungen auf ereignisbasierten Sensordaten durch und visualisiert die benötigte Bandbreite für die Übertragung dieser Daten.
+Die entsprechenden Annahmen und Auswertungen finden sich in meiner Bachelorthesis wieder.
 
 ## Dateien
 
@@ -29,10 +30,11 @@ Diese Plots helfen dabei, die Effizienz der Huffman-Codierung und den Einfluss d
 Diese Datei visualisiert die benötigte Bandbreite für die Übertragung von Ereignisdaten und vergleicht verschiedene Komprimierungsmethoden. Die wichtigsten Schritte sind:
 
 1. **Daten einlesen**: Liest Ereignisdaten aus einer HDF5-Datei.
-2. **Huffman-Codierung**: Führt eine Huffman-Codierung auf den Same Event Prediction Daten durch.
-3. **Bitraten berechnen**: Berechnet die Bitrate für verschiedene Komprimierungsmethoden.
-4. **Animation erstellen**: Erstellt eine Animation der Bitraten über die Zeit.
-5. **Huffman-Baum visualisieren**: Visualisiert den Huffman-Baum basierend auf den gegebenen Codes.
+2. **SEP (Same Event Prediction) durchführen** Hierbei wird die Differenz zum nächsten Event genommen und als ∆E gespeichert. Annahme: Das nächste Event tritt an der gleichen Stelle auf.
+3. **Huffman-Codierung**: Führt eine Huffman-Codierung auf den Same Event Prediction Daten durch.
+4. **Bitraten berechnen**: Berechnet die Bitrate für verschiedene Komprimierungsmethoden.
+5. **Animation erstellen**: Erstellt eine Animation der Bitraten über die Zeit.
+6. **Huffman-Baum visualisieren**: Visualisiert den Huffman-Baum basierend auf den gegebenen Codes.
 
 Das Programm erstellt und speichert Plots und Animationen, die die Bitraten der verschiedenen Komprimierungsmethoden über die Zeit darstellen.
 
