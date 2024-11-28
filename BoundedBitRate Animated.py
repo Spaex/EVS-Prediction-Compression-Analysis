@@ -216,11 +216,11 @@ y_decoded = huffman_decode(y_encoded, codes_y)
 print("Y decoded")
 
 # Validierung
-assert np.array_equal(time_noise, time_decoded), "Time decoding failed"
-assert np.array_equal(x_noise, x_decoded), "X decoding failed"
-assert np.array_equal(y_noise, y_decoded), "Y decoding failed"
+assert np.array_equal(time_noise, time_decoded), "Time decoding fehlgeschlagen"
+assert np.array_equal(x_noise, x_decoded), "X decoding fehlgeschlagen"
+assert np.array_equal(y_noise, y_decoded), "Y decoding fehlgeschlagen"
 
-print("Time, X, and Y decoded successfully and match the original data.")
+print("Zeit t, X und Y wurden erfolgreich dekodiert und stimmen mit den Originaldaten überein.")
 
 ecf_filter_code = 0x8ECF
 
