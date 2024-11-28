@@ -293,8 +293,6 @@ bandwith_sensor = 346 * 260 * 8 * 30 / 1e6
 
 # Erstellung des Plots und der Animation
 fig, ax = plt.subplots(figsize=(10, 6))
-# fig.patch.set_alpha(0)  # Hintergrund der gesamten Figur transparent
-# ax.patch.set_alpha(0)   # Hintergrund des Plots transparent
 ax.set_xlim(0, np.max(time_seconds))
 ax.set_ylim(0, 1500)
 line, = ax.plot([], [], label='EVS.RAW', color='g')

@@ -125,7 +125,7 @@ y_bitsize = y.size * bits[1]    # Größe von Y in Bits
 time_bitsize = time.size * bits[2] + 28 * (1 + int(time[-1] / 64)) # Größe von Zeit in Bits
 
 # Parameter für die Gauß-Verteilung
-mu = 0
+mu = 0 # Mittelwert
 
 accuracies = np.arange(0, 1.01, 0.01)
 #accuracies = np.concatenate((np.arange(0, 0.95, 0.01), np.arange(0.95, 1.001, 0.001))) # Optional kann hier die Genauigkeit feiner festgelegt werden für die letzten 5% Genauigkeit (schönerer Plot)
